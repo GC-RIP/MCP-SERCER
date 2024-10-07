@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "dadea061-0ad3-34ca-b169-b53822ecd992",
+    "name": "GC_RIP",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
