@@ -415,3 +415,9 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity
 [08Oct2024 23:36:23.489] [Worker-Main-2/ERROR] [net.minecraft.world.level.block.entity.SculkShriekerBlockEntity/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:8,source:{pos:[I;-425,-56,-205],type:"minecraft:block"}}]
 [08Oct2024 23:36:23.498] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-185, y=-46, z=-142}
 [08Oct2024 23:38:35.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Pic-A-Nic Basket?]
+[08Oct2024 23:51:59.443] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GC_RIP lost connection: Disconnected
+[08Oct2024 23:51:59.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP left the game
+[08Oct2024 23:51:59.521] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Oct2024 23:52:11.196] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Floppixt[/127.62.221.32:46379] logged in with entity id 56423 at (41.5, 76.0, 5.5)
+[08Oct2024 23:52:11.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Floppixt joined the game
+[08Oct2024 23:52:11.291] [Server thread/INFO] [Jade/]: Syncing config to Floppixt (ebac7b97-95ee-3eb7-a8d1-ac97f8f0d4f2)
