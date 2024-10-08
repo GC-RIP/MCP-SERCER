@@ -169,3 +169,6 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 20:41:17.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> ya vengo xd
 [08Oct2024 20:41:22.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> ok
 [08Oct2024 20:44:08.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Gave 500000000 experience points to 2 players]
+[08Oct2024 20:47:19.209] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 3 bison_fur because there is no smelting recipe
+[08Oct2024 20:47:35.024] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 5 bison_fur because there is no smelting recipe
+[08Oct2024 20:47:45.349] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 1 bison_fur because there is no smelting recipe
