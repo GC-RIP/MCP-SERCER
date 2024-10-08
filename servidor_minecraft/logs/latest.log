@@ -178,3 +178,8 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 21:04:02.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> eu we
 [08Oct2024 21:04:06.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> ?
 [08Oct2024 21:04:11.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> llamadiña
+[08Oct2024 21:07:54.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 21:09:02.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was killed
+[08Oct2024 21:09:02.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed GC_RIP]
+[08Oct2024 21:09:27.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 21:12:27.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Ice Bucket Challenge]
