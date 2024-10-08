@@ -179,3 +179,14 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 18:08:11.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
 [08Oct2024 18:14:28.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Take Aim]
 [08Oct2024 18:22:45.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 18:34:52.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was slain by Iron Golem
+[08Oct2024 18:35:11.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was slain by Iron Golem
+[08Oct2024 18:35:27.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> e
+[08Oct2024 18:35:28.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was slain by Iron Golem
+[08Oct2024 18:36:54.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 18:36:58.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 18:38:04.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 18:38:07.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 18:38:14.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 18:38:19.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 18:38:24.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
