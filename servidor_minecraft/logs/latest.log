@@ -228,3 +228,15 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 19:19:22.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was slain by Skeleton
 [08Oct2024 19:19:26.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
 [08Oct2024 19:23:15.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Husk
+[08Oct2024 19:33:38.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was killed
+[08Oct2024 19:33:38.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed DarkBy2007]
+[08Oct2024 19:33:45.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 19:34:29.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
+[08Oct2024 19:35:46.327] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GC_RIP lost connection: Disconnected
+[08Oct2024 19:35:46.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP left the game
+[08Oct2024 19:35:46.375] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Oct2024 19:35:46.377] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GC_RIP[/[::1]:35030] logged in with entity id 32397 at (-1043.7222850016522, 92.5625, -1512.5033710119628)
+[08Oct2024 19:35:46.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP joined the game
+[08Oct2024 19:35:46.421] [Server thread/INFO] [Jade/]: Syncing config to GC_RIP (dadea061-0ad3-34ca-b169-b53822ecd992)
+[08Oct2024 19:37:30.556] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1074, y=82, z=-1474} BlockPos{x=-1074, y=81, z=-1475}
+[08Oct2024 19:37:30.615] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1074, y=82, z=-1475} BlockPos{x=-1074, y=81, z=-1475}
