@@ -2215,3 +2215,52 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 06:48:56.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
 [08Oct2024 06:49:39.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Zombie
 [08Oct2024 06:49:47.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 06:53:19.812] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Oct2024 06:53:19.816] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Oct2024 06:53:46.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Zombie
+[08Oct2024 06:54:00.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> we me deconectare
+[08Oct2024 06:54:07.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> por?
+[08Oct2024 06:54:13.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> tengo sueño xd
+[08Oct2024 06:54:31.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> bruh
+[08Oct2024 06:54:37.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> xd
+[08Oct2024 06:54:50.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> el server puede quedar prendido un rato mas
+[08Oct2024 06:55:15.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> o no
+[08Oct2024 06:55:21.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> como?
+[08Oct2024 06:55:28.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> mira necesito hacer save world
+[08Oct2024 06:55:38.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> cuando lo haga te podes volver a unir
+[08Oct2024 06:55:52.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> pera
+[08Oct2024 06:55:59.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Oct2024 06:55:59.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dale<--[HERE]
+[08Oct2024 06:56:07.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Oct2024 06:56:07.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: msg dale<--[HERE]
+[08Oct2024 06:56:09.725] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GC_RIP lost connection: Disconnected
+[08Oct2024 06:56:09.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP left the game
+[08Oct2024 06:56:09.773] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Oct2024 06:56:29.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
+[08Oct2024 06:56:53.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to DarkBy2007: we salte
+[08Oct2024 06:56:59.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> perese
+[08Oct2024 06:57:06.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Cover Me with Diamonds]
+[08Oct2024 06:57:24.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to DarkBy2007: querias ponerte diamante?
+[08Oct2024 06:57:36.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> lo consegui
+[08Oct2024 06:57:59.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to DarkBy2007: las dungueons tan potentes
+[08Oct2024 06:58:12.920] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkBy2007 lost connection: Timed out
+[08Oct2024 06:58:12.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 left the game
+[08Oct2024 06:58:19.786] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Oct2024 06:58:19.790] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Oct2024 06:58:28.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Oct2024 06:58:28.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sto´p<--[HERE]
+[08Oct2024 06:58:36.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[08Oct2024 06:58:36.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Oct2024 06:58:36.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Oct2024 06:58:36.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Oct2024 06:58:36.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08Oct2024 06:58:43.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08Oct2024 06:58:43.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08Oct2024 06:58:43.661] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Oct2024 06:58:43.665] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Oct2024 06:58:43.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Oct2024 06:58:43.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Oct2024 06:58:43.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Oct2024 06:58:43.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Oct2024 06:58:44.430] [Server thread/INFO] [Framework/]: Unloading server configs...
+[08Oct2024 06:58:44.430] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
