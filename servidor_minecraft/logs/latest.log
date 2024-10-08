@@ -168,3 +168,10 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 17:45:46.492] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GC_RIP[/[::1]:51744] logged in with entity id 684 at (-1066.5, 89.0, -1493.5)
 [08Oct2024 17:45:46.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP joined the game
 [08Oct2024 17:45:46.544] [Server thread/INFO] [Jade/]: Syncing config to GC_RIP (dadea061-0ad3-34ca-b169-b53822ecd992)
+[08Oct2024 17:59:02.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was slain by Spider
+[08Oct2024 17:59:42.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 17:59:59.924] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/6404, l='ServerLevel[world]', x=-1042.97, y=93.05, z=-1512.25] died, message: 'Butcher tried to swim in lava'
+[08Oct2024 18:00:15.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> QUITALA
+[08Oct2024 18:00:19.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 tried to swim in lava
+[08Oct2024 18:00:29.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 burned to death
+[08Oct2024 18:00:50.355] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1044, y=94, z=-1513} BlockPos{x=-1045, y=93, z=-1514}

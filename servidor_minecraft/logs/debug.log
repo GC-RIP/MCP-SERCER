@@ -2118,3 +2118,14 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 17:45:46.544] [Server thread/INFO] [Jade/]: Syncing config to GC_RIP (dadea061-0ad3-34ca-b169-b53822ecd992)
 [08Oct2024 17:48:06.746] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [08Oct2024 17:48:06.754] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Oct2024 17:53:06.697] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Oct2024 17:53:06.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Oct2024 17:58:06.796] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Oct2024 17:58:06.800] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Oct2024 17:59:02.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was slain by Spider
+[08Oct2024 17:59:42.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 17:59:59.924] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Butcher'/6404, l='ServerLevel[world]', x=-1042.97, y=93.05, z=-1512.25] died, message: 'Butcher tried to swim in lava'
+[08Oct2024 18:00:15.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> QUITALA
+[08Oct2024 18:00:19.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 tried to swim in lava
+[08Oct2024 18:00:29.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 burned to death
+[08Oct2024 18:00:50.355] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1044, y=94, z=-1513} BlockPos{x=-1045, y=93, z=-1514}
