@@ -177,3 +177,4 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 18:00:50.355] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1044, y=94, z=-1513} BlockPos{x=-1045, y=93, z=-1514}
 [08Oct2024 18:07:21.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was slain by GC_RIP
 [08Oct2024 18:08:11.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
+[08Oct2024 18:14:28.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Take Aim]
