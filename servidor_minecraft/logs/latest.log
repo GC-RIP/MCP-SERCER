@@ -207,3 +207,21 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 21:24:38.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Nightmare Fuel]
 [08Oct2024 21:24:44.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
 [08Oct2024 21:24:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 21:26:04.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 21:26:15.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Hidden in the Depths]
+[08Oct2024 21:26:51.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 21:28:22.712] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-188, y=38, z=-436} BlockPos{x=-189, y=37, z=-437}
+[08Oct2024 21:28:22.756] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-188, y=38, z=-436} BlockPos{x=-189, y=37, z=-437}
+[08Oct2024 21:28:22.807] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-188, y=38, z=-436} BlockPos{x=-189, y=37, z=-437}
+[08Oct2024 21:28:22.855] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-188, y=38, z=-436} BlockPos{x=-189, y=37, z=-437}
+[08Oct2024 21:30:35.136] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-165, y=31, z=-482} BlockPos{x=-165, y=32, z=-481}
+[08Oct2024 21:30:50.605] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-174, y=26, z=-498} BlockPos{x=-179, y=26, z=-504}
+[08Oct2024 21:30:50.715] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-174, y=26, z=-498} BlockPos{x=-179, y=26, z=-504}
+[08Oct2024 21:30:50.716] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-174, y=26, z=-498} BlockPos{x=-179, y=26, z=-504}
+[08Oct2024 21:30:50.741] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-174, y=26, z=-498} BlockPos{x=-179, y=26, z=-504}
+[08Oct2024 21:30:50.808] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-174, y=26, z=-498} BlockPos{x=-179, y=26, z=-504}
+[08Oct2024 21:31:30.063] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-172, y=34, z=-484} BlockPos{x=-169, y=35, z=-484}
+[08Oct2024 21:34:26.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 21:34:27.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Those Were the Days]
+[08Oct2024 21:34:32.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Those Were the Days]
+[08Oct2024 21:35:00.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP burned to death
