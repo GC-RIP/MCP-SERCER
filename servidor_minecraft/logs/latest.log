@@ -1,19 +1,19 @@
-[08Oct2024 06:12:33.382] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[08Oct2024 06:12:33.385] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[08Oct2024 06:12:35.842] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[08Oct2024 06:12:35.993] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MCP-SERCER/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[08Oct2024 06:12:36.500] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[08Oct2024 06:12:36.502] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[08Oct2024 06:12:36.503] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[08Oct2024 06:12:36.506] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[08Oct2024 06:12:36.813] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
-[08Oct2024 06:12:38.922] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Oct2024 06:12:39.013] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
-[08Oct2024 06:12:39.015] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[08Oct2024 06:12:39.032] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Oct2024 06:12:39.034] [main/WARN] [mixin/]: Reference map 'expanded_ecosphere-forge-refmap.json' for wwoo.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Oct2024 06:12:39.035] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
-[08Oct2024 06:12:39.066] [main/INFO] [Puzzles Lib/]: Loading 31 mods:
+[08Oct2024 17:42:20.794] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[08Oct2024 17:42:20.799] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[08Oct2024 17:42:22.819] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[08Oct2024 17:42:23.000] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MCP-SERCER/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[08Oct2024 17:42:23.646] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[08Oct2024 17:42:23.648] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[08Oct2024 17:42:23.650] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[08Oct2024 17:42:23.651] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[08Oct2024 17:42:24.012] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[08Oct2024 17:42:28.140] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[08Oct2024 17:42:28.334] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[08Oct2024 17:42:28.336] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[08Oct2024 17:42:28.350] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Oct2024 17:42:28.352] [main/WARN] [mixin/]: Reference map 'expanded_ecosphere-forge-refmap.json' for wwoo.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Oct2024 17:42:28.355] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[08Oct2024 17:42:28.401] [main/INFO] [Puzzles Lib/]: Loading 31 mods:
 	- alexsmobs 1.22.9
 	- balm 7.3.9
 		\-- kuma_api 20.1.8
@@ -45,33 +45,33 @@
 	- tlskincape 1.32
 	- trashslot 15.1.0
 	- travelersbackpack 9.1.16
-[08Oct2024 06:12:39.183] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[08Oct2024 06:12:39.503] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[08Oct2024 06:12:39.503] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[08Oct2024 06:12:39.504] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
-[08Oct2024 06:12:39.504] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
-[08Oct2024 06:12:39.504] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
-[08Oct2024 06:12:39.505] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
-[08Oct2024 06:12:39.505] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
-[08Oct2024 06:12:39.505] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
-[08Oct2024 06:12:47.777] [modloading-worker-0/INFO] [Expanded Ecosphere/]: Loading Expanded Ecosphere
-[08Oct2024 06:12:48.377] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[08Oct2024 06:12:48.382] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
-[08Oct2024 06:12:48.449] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
-[08Oct2024 06:12:48.464] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
-[08Oct2024 06:12:48.723] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[08Oct2024 06:12:48.732] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[08Oct2024 06:12:48.754] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
-[08Oct2024 06:12:49.889] [modloading-worker-0/INFO] [Expanded Ecosphere/]: [Expanded Ecosphere Updater] Found no updates
-[08Oct2024 06:12:51.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[08Oct2024 06:12:51.646] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[08Oct2024 06:12:51.646] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[08Oct2024 06:12:51.647] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[08Oct2024 06:12:51.649] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[08Oct2024 06:12:51.789] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[08Oct2024 06:12:51.810] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[08Oct2024 06:12:51.815] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[08Oct2024 06:12:52.137] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[08Oct2024 17:42:28.560] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[08Oct2024 17:42:28.944] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[08Oct2024 17:42:28.944] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[08Oct2024 17:42:28.945] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[08Oct2024 17:42:28.946] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[08Oct2024 17:42:28.946] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[08Oct2024 17:42:28.946] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[08Oct2024 17:42:28.947] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[08Oct2024 17:42:28.947] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[08Oct2024 17:42:39.255] [modloading-worker-0/INFO] [Expanded Ecosphere/]: Loading Expanded Ecosphere
+[08Oct2024 17:42:39.692] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[08Oct2024 17:42:39.702] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[08Oct2024 17:42:39.932] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[08Oct2024 17:42:40.016] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[08Oct2024 17:42:40.136] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[08Oct2024 17:42:40.136] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[08Oct2024 17:42:40.428] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[08Oct2024 17:42:41.324] [modloading-worker-0/INFO] [Expanded Ecosphere/]: [Expanded Ecosphere Updater] Found no updates
+[08Oct2024 17:42:44.624] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[08Oct2024 17:42:44.679] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[08Oct2024 17:42:44.680] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[08Oct2024 17:42:44.681] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[08Oct2024 17:42:44.682] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[08Oct2024 17:42:44.793] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[08Oct2024 17:42:44.881] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[08Oct2024 17:42:44.886] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[08Oct2024 17:42:45.200] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -86,12 +86,12 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[08Oct2024 06:12:52.141] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[08Oct2024 06:12:52.196] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
-[08Oct2024 06:12:52.198] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
-[08Oct2024 06:12:52.237] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.24 Target: null
-[08Oct2024 06:12:52.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[08Oct2024 06:12:52.319] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[08Oct2024 17:42:45.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[08Oct2024 17:42:45.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
+[08Oct2024 17:42:45.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[08Oct2024 17:42:45.464] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.24 Target: null
+[08Oct2024 17:42:45.465] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[08Oct2024 17:42:45.554] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -106,192 +106,65 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[08Oct2024 06:12:52.323] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
-[08Oct2024 06:12:52.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
-[08Oct2024 06:12:52.334] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Oct2024 06:12:52.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[08Oct2024 06:12:52.528] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
-[08Oct2024 06:12:52.546] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
-[08Oct2024 06:12:54.003] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Oct2024 06:12:55.162] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/assets/.mcassetsroot' uses unexpected schema
-[08Oct2024 06:12:55.162] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/data/.mcassetsroot' uses unexpected schema
-[08Oct2024 06:12:55.212] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
-[08Oct2024 06:12:55.213] [main/WARN] [Cristel Lib/]: Expanded Ecosphere Default World Gen accepted!
-[08Oct2024 06:12:55.214] [main/WARN] [Cristel Lib/]: Disables granit, etc. accepted!
-[08Oct2024 06:12:55.214] [main/ERROR] [Cristel Lib/]: Forcing LARGE biomes condition is false, skipping
-[08Oct2024 06:12:58.529] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[08Oct2024 06:12:59.566] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
-[08Oct2024 06:12:59.747] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1590 advancements
-[08Oct2024 06:13:00.814] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[08Oct2024 06:13:00.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Oct2024 06:13:00.815] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Oct2024 06:13:00.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Oct2024 06:13:00.919] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Oct2024 06:13:00.972] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[08Oct2024 06:13:01.052] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08Oct2024 06:13:01.053] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08Oct2024 06:13:01.053] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08Oct2024 06:13:01.053] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08Oct2024 06:13:01.084] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
-[08Oct2024 06:13:01.365] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[08Oct2024 06:13:01.366] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[08Oct2024 06:13:01.371] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[08Oct2024 06:13:01.448] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[08Oct2024 06:13:01.450] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Oct2024 06:13:06.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Oct2024 06:13:11.016] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.030] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.036] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.050] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.062] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.077] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.086] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.099] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.100] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.217] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:11.728] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:12.222] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:12.716] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[08Oct2024 06:13:13.216] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[08Oct2024 06:13:13.716] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
-[08Oct2024 06:13:14.124] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7409 ms
-[08Oct2024 06:13:14.125] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.053s)! For help, type "help"
-[08Oct2024 06:13:14.157] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[08Oct2024 06:13:14.157] [Server thread/INFO] [Framework/]: Loading server configs...
-[08Oct2024 06:13:21.080] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[08Oct2024 06:13:21.144] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GC_RIP[/[::1]:54876] logged in with entity id 144 at (-519.6887089518276, 77.5, 1237.5637141106838)
-[08Oct2024 06:13:21.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP joined the game
-[08Oct2024 06:13:21.314] [Server thread/INFO] [Jade/]: Syncing config to GC_RIP (dadea061-0ad3-34ca-b169-b53822ecd992)
-[08Oct2024 06:13:24.220] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3056ms or 61 ticks behind
-[08Oct2024 06:13:24.256] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkBy2007[/[::1]:48260] logged in with entity id 145 at (60.69999998807907, 65.0, -3.5658380815856026)
-[08Oct2024 06:13:24.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 joined the game
-[08Oct2024 06:13:24.423] [Server thread/INFO] [Jade/]: Syncing config to DarkBy2007 (03317f9e-8efa-3c00-8466-f328e416de9e)
-[08Oct2024 06:14:07.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Skeleton
-[08Oct2024 06:14:15.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> seras mamon
-[08Oct2024 06:14:18.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
-[08Oct2024 06:15:31.615] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element minecraft:village_plains took 2622 ms
-[08Oct2024 06:15:31.616] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2602ms or 52 ticks behind
-[08Oct2024 06:15:31.639] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkBy2007 moved too quickly! -0.0021387149014344686,-0.2522033402537289,10.214408888377914
-[08Oct2024 06:15:48.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to -1023.500000, 67.000000, -1471.500000]
-[08Oct2024 06:17:02.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Suit Up]
-[08Oct2024 06:17:22.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> te tepeo a mi?
-[08Oct2024 06:17:36.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> si
-[08Oct2024 06:17:56.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
-[08Oct2024 06:18:03.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> seras menso
-[08Oct2024 06:18:06.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was killed
-[08Oct2024 06:18:06.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed GC_RIP]
-[08Oct2024 06:18:23.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported DarkBy2007 to GC_RIP]
-[08Oct2024 06:19:15.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP drowned
-[08Oct2024 06:20:25.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> carlos haz una granja de hierro xd
-[08Oct2024 06:20:35.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> lucete
-[08Oct2024 06:20:41.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> vhupala
-[08Oct2024 06:20:52.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> no sabes como se hace?
-[08Oct2024 06:20:55.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> manco
-[08Oct2024 06:21:06.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> olvidalo ya no lo eres
-[08Oct2024 06:21:37.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> we
-[08Oct2024 06:21:41.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> toma
-[08Oct2024 06:22:02.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> pa ti
-[08Oct2024 06:23:26.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> haz un hueco de 3 bloques de altura de 12 x 12
-[08Oct2024 06:23:43.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> cerca de la aldea
-[08Oct2024 06:24:05.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> bestia we
-[08Oct2024 06:26:16.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Suit Up]
-[08Oct2024 06:26:57.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> ladron
-[08Oct2024 06:27:39.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> alv
-[08Oct2024 06:27:54.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> ta muy alto
-[08Oct2024 06:27:55.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> que?
-[08Oct2024 06:28:05.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> xd
-[08Oct2024 06:28:59.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> alv
-[08Oct2024 06:30:03.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> escape xd
-[08Oct2024 06:30:25.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> ay wey
-[08Oct2024 06:30:42.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> corre y llevatelos carlos
-[08Oct2024 06:30:54.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Cover Me with Diamonds]
-[08Oct2024 06:31:00.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> arranca
-[08Oct2024 06:31:16.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> 6 diamantes
-[08Oct2024 06:31:23.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> apurate
-[08Oct2024 06:31:24.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> eso pude agarrar
-[08Oct2024 06:31:32.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> todavia quedan we
-[08Oct2024 06:31:44.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> TODOS CONMIGO CBRON
-[08Oct2024 06:32:03.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was shot by Skeleton
-[08Oct2024 06:32:09.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> seras wey
-[08Oct2024 06:32:14.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
-[08Oct2024 06:33:16.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was shot by Skeleton
-[08Oct2024 06:33:19.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> xd
-[08Oct2024 06:33:28.843] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> un escudo mamon
-[08Oct2024 06:33:29.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
-[08Oct2024 06:34:00.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> SON 200 RUBIUH
-[08Oct2024 06:34:33.124] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Zombie
-[08Oct2024 06:35:02.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
-[08Oct2024 06:35:09.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> mano
-[08Oct2024 06:35:16.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> yo los distraigo
-[08Oct2024 06:35:26.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> que soy mas pro pal escape
-[08Oct2024 06:36:10.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Isn't It Iron Pick]
-[08Oct2024 06:36:41.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Not Today, Thank You]
-[08Oct2024 06:36:46.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Monster Hunter]
-[08Oct2024 06:37:32.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> tremendo
-[08Oct2024 06:37:48.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> eso
-[08Oct2024 06:37:51.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> llevatelos
-[08Oct2024 06:38:39.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Isn't It Iron Pick]
-[08Oct2024 06:41:16.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Zombie
-[08Oct2024 06:41:22.198] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> oe we
-[08Oct2024 06:41:28.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> ven a la aldea
-[08Oct2024 06:41:30.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> dime
-[08Oct2024 06:41:33.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> nel
-[08Oct2024 06:41:41.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> tenemos que chetanos aqui
-[08Oct2024 06:42:09.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [What a Deal!]
-[08Oct2024 06:43:03.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
-[08Oct2024 06:43:42.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> wacha
-[08Oct2024 06:44:01.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> que pro
-[08Oct2024 06:44:14.698] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> dare machete
-[08Oct2024 06:44:16.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> filo V
-[08Oct2024 06:44:23.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> ven
-[08Oct2024 06:44:28.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> llevalo
-[08Oct2024 06:44:48.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> tengo a todos
-[08Oct2024 06:45:16.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> agarra tido
-[08Oct2024 06:45:25.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Acquire Hardware]
-[08Oct2024 06:47:05.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> xd
-[08Oct2024 06:48:48.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Zombie
-[08Oct2024 06:48:56.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
-[08Oct2024 06:49:39.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Zombie
-[08Oct2024 06:49:47.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
-[08Oct2024 06:53:46.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Zombie
-[08Oct2024 06:54:00.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> we me deconectare
-[08Oct2024 06:54:07.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> por?
-[08Oct2024 06:54:13.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> tengo sueño xd
-[08Oct2024 06:54:31.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> bruh
-[08Oct2024 06:54:37.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> xd
-[08Oct2024 06:54:50.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> el server puede quedar prendido un rato mas
-[08Oct2024 06:55:15.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> o no
-[08Oct2024 06:55:21.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> como?
-[08Oct2024 06:55:28.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> mira necesito hacer save world
-[08Oct2024 06:55:38.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> cuando lo haga te podes volver a unir
-[08Oct2024 06:55:52.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> pera
-[08Oct2024 06:55:59.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[08Oct2024 06:55:59.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: dale<--[HERE]
-[08Oct2024 06:56:07.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[08Oct2024 06:56:07.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: msg dale<--[HERE]
-[08Oct2024 06:56:09.725] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GC_RIP lost connection: Disconnected
-[08Oct2024 06:56:09.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP left the game
-[08Oct2024 06:56:09.773] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[08Oct2024 06:56:29.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
-[08Oct2024 06:56:53.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to DarkBy2007: we salte
-[08Oct2024 06:56:59.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> perese
-[08Oct2024 06:57:06.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Cover Me with Diamonds]
-[08Oct2024 06:57:24.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to DarkBy2007: querias ponerte diamante?
-[08Oct2024 06:57:36.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> lo consegui
-[08Oct2024 06:57:59.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to DarkBy2007: las dungueons tan potentes
-[08Oct2024 06:58:12.920] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkBy2007 lost connection: Timed out
-[08Oct2024 06:58:12.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 left the game
-[08Oct2024 06:58:28.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[08Oct2024 06:58:28.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sto´p<--[HERE]
-[08Oct2024 06:58:36.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[08Oct2024 06:58:36.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[08Oct2024 06:58:36.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[08Oct2024 06:58:36.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[08Oct2024 06:58:36.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[08Oct2024 06:58:43.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[08Oct2024 06:58:43.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[08Oct2024 06:58:43.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[08Oct2024 06:58:43.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[08Oct2024 06:58:43.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[08Oct2024 06:58:43.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[08Oct2024 06:58:44.430] [Server thread/INFO] [Framework/]: Unloading server configs...
+[08Oct2024 17:42:45.555] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[08Oct2024 17:42:45.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[08Oct2024 17:42:45.570] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Oct2024 17:42:45.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[08Oct2024 17:42:45.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[08Oct2024 17:42:45.818] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[08Oct2024 17:42:46.778] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[08Oct2024 17:42:47.758] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/assets/.mcassetsroot' uses unexpected schema
+[08Oct2024 17:42:47.758] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23159!/data/.mcassetsroot' uses unexpected schema
+[08Oct2024 17:42:47.805] [main/ERROR] [Cristel Lib/]: Cristel Lib Config Pack has no data
+[08Oct2024 17:42:47.806] [main/WARN] [Cristel Lib/]: Expanded Ecosphere Default World Gen accepted!
+[08Oct2024 17:42:47.807] [main/WARN] [Cristel Lib/]: Disables granit, etc. accepted!
+[08Oct2024 17:42:47.807] [main/ERROR] [Cristel Lib/]: Forcing LARGE biomes condition is false, skipping
+[08Oct2024 17:42:50.307] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[08Oct2024 17:42:51.250] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 9 recipes
+[08Oct2024 17:42:51.385] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1590 advancements
+[08Oct2024 17:42:52.422] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[08Oct2024 17:42:52.423] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Oct2024 17:42:52.424] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Oct2024 17:42:52.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Oct2024 17:42:52.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Oct2024 17:42:52.700] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08Oct2024 17:42:52.784] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Oct2024 17:42:52.785] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Oct2024 17:42:52.785] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Oct2024 17:42:52.785] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Oct2024 17:42:52.812] [Server thread/INFO] [Puzzles Lib/]: Loading server config for enchantinginfuser
+[08Oct2024 17:42:52.814] [Thread-1/INFO] [Puzzles Lib/]: Reloading server config for enchantinginfuser
+[08Oct2024 17:42:52.962] [Server thread/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[08Oct2024 17:42:52.962] [Server thread/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[08Oct2024 17:42:53.034] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[08Oct2024 17:42:53.034] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[08Oct2024 17:42:53.036] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Oct2024 17:42:56.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Oct2024 17:43:02.074] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.136] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.143] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.164] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.164] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.196] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.237] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.238] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.250] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.258] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.264] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.271] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.325] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[08Oct2024 17:43:02.823] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[08Oct2024 17:43:03.323] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[08Oct2024 17:43:03.824] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7501 ms
+[08Oct2024 17:43:03.825] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (11.026s)! For help, type "help"
+[08Oct2024 17:43:03.859] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Oct2024 17:43:03.861] [Server thread/INFO] [Framework/]: Loading server configs...
+[08Oct2024 17:43:17.182] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[08Oct2024 17:43:17.263] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkBy2007[/[::1]:59578] logged in with entity id 40 at (-1040.300000011921, 91.0, -1504.539408553907)
+[08Oct2024 17:43:17.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 joined the game
+[08Oct2024 17:43:17.392] [Server thread/INFO] [Jade/]: Syncing config to DarkBy2007 (03317f9e-8efa-3c00-8466-f328e416de9e)
+[08Oct2024 17:43:20.077] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2807ms or 56 ticks behind
+[08Oct2024 17:43:51.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made DarkBy2007 a server operator
+[08Oct2024 17:45:46.492] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GC_RIP[/[::1]:51744] logged in with entity id 684 at (-1066.5, 89.0, -1493.5)
+[08Oct2024 17:45:46.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP joined the game
+[08Oct2024 17:45:46.544] [Server thread/INFO] [Jade/]: Syncing config to GC_RIP (dadea061-0ad3-34ca-b169-b53822ecd992)
