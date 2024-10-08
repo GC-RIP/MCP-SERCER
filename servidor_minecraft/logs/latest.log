@@ -172,3 +172,9 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 20:47:19.209] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 3 bison_fur because there is no smelting recipe
 [08Oct2024 20:47:35.024] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 5 bison_fur because there is no smelting recipe
 [08Oct2024 20:47:45.349] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 1 bison_fur because there is no smelting recipe
+[08Oct2024 20:55:51.564] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=40, y=66, z=-1656} BlockPos{x=42, y=64, z=-1656}
+[08Oct2024 20:55:51.621] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=40, y=66, z=-1656} BlockPos{x=42, y=64, z=-1656}
+[08Oct2024 21:02:02.412] [Server thread/WARN] [net.minecraft.world.level.storage.loot.functions.SmeltItemFunction/]: Couldn't smelt 2 bison_fur because there is no smelting recipe
+[08Oct2024 21:04:02.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> eu we
+[08Oct2024 21:04:06.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> ?
+[08Oct2024 21:04:11.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> llamadiña
