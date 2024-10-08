@@ -178,3 +178,4 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 18:07:21.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was slain by GC_RIP
 [08Oct2024 18:08:11.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
 [08Oct2024 18:14:28.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Take Aim]
+[08Oct2024 18:22:45.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
