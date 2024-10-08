@@ -248,3 +248,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 20:00:35.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
 [08Oct2024 20:02:32.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was killed
 [08Oct2024 20:02:32.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Killed DarkBy2007]
+[08Oct2024 20:04:50.997] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1053, y=84, z=-1420} BlockPos{x=-1052, y=83, z=-1420}
+[08Oct2024 20:09:43.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Ice Bucket Challenge]
+[08Oct2024 20:12:39.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was killed
+[08Oct2024 20:12:39.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed GC_RIP]

@@ -2707,3 +2707,66 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 20:02:32.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Killed DarkBy2007]
 [08Oct2024 20:03:06.661] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [08Oct2024 20:03:06.665] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Oct2024 20:04:50.997] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1053, y=84, z=-1420} BlockPos{x=-1052, y=83, z=-1420}
+[08Oct2024 20:06:35.689] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1042, y=82, z=-1450}) doesn't have enough leaves around top most log
+[08Oct2024 20:06:36.426] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1042, y=83, z=-1450}) doesn't have enough leaves around top most log
+[08Oct2024 20:06:37.192] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1042, y=84, z=-1450}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:07.055] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:07.675] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:08.354] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:08.968] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:09.562] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:10.204] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:10.814] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:11.408] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:12.003] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:12.607] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:13.202] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:13.804] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:07:18.255] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1082, y=91, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:18.898] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=91, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:19.694] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=91, z=-1444}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:20.398] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=92, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:21.747] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1082, y=92, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:22.695] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=92, z=-1444}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:32.403] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=93, z=-1444}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:33.103] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=93, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:33.795] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1082, y=93, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:34.598] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1082, y=93, z=-1444}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:35.298] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1082, y=94, z=-1444}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:36.050] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1082, y=94, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:36.750] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=94, z=-1444}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:37.443] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=94, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:38.145] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1082, y=95, z=-1444}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:38.853] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1082, y=95, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:39.498] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=95, z=-1445}) doesn't have enough leaves around top most log
+[08Oct2024 20:07:40.196] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=-1083, y=95, z=-1444}) doesn't have enough leaves around top most log
+[08Oct2024 20:08:06.663] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Oct2024 20:08:06.667] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Oct2024 20:09:43.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Ice Bucket Challenge]
+[08Oct2024 20:12:39.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was killed
+[08Oct2024 20:12:39.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed GC_RIP]
+[08Oct2024 20:13:06.659] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Oct2024 20:13:06.662] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Oct2024 20:13:51.613] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:52.295] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:53.149] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:53.803] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:54.454] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:55.159] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:55.961] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:56.594] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:57.604] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:58.497] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:13:59.207] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:00.208] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:01.398] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:02.110] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:03.293] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:04.149] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:04.851] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:05.768] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:06.548] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:07.246] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:08.504] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[08Oct2024 20:14:09.350] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
