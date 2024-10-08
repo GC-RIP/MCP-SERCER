@@ -247,3 +247,12 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 21:51:57.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was killed
 [08Oct2024 21:51:57.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Killed GC_RIP]
 [08Oct2024 21:53:46.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Gave 400 [Diamond] to 2]
+[08Oct2024 21:56:57.070] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-971, y=61, z=-1615} BlockPos{x=-970, y=61, z=-1614}
+[08Oct2024 21:57:20.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> unete a la llamada
+[08Oct2024 21:57:24.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> xd
+[08Oct2024 21:58:08.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 22:00:02.034] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1276, y=61, z=-1415} BlockPos{x=-1278, y=59, z=-1415}
+[08Oct2024 22:00:02.105] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1276, y=61, z=-1415} BlockPos{x=-1278, y=59, z=-1415}
+[08Oct2024 22:00:09.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 22:00:52.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 22:01:29.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Gave 400 [Coal] to 2]
