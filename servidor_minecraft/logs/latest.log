@@ -256,3 +256,19 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 22:00:09.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
 [08Oct2024 22:00:52.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
 [08Oct2024 22:01:29.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Gave 400 [Coal] to 2]
+[08Oct2024 22:07:00.252] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/25072, l='ServerLevel[world]', x=-952.35, y=63.00, z=-1487.15] died, message: 'Librarian was slain by Zombie'
+[08Oct2024 22:10:40.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Gave 400 [Leather] to 2]
+[08Oct2024 22:10:52.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[08Oct2024 22:10:52.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Oct2024 22:10:52.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Oct2024 22:10:52.961] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkBy2007 lost connection: Disconnected
+[08Oct2024 22:10:52.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 left the game
+[08Oct2024 22:10:52.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Oct2024 22:10:53.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08Oct2024 22:10:59.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08Oct2024 22:10:59.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08Oct2024 22:10:59.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Oct2024 22:10:59.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Oct2024 22:10:59.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Oct2024 22:10:59.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[08Oct2024 22:10:59.951] [Server thread/INFO] [Framework/]: Unloading server configs...
