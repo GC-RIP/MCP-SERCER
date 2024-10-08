@@ -218,3 +218,13 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 19:12:19.016] [Worker-Main-2/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-191, y=-45, z=-211}
 [08Oct2024 19:12:23.344] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-57, z=-201}
 [08Oct2024 19:12:23.345] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-183, y=-58, z=-205}
+[08Oct2024 19:13:26.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 19:16:28.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Husk
+[08Oct2024 19:16:42.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 19:17:20.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Husk
+[08Oct2024 19:17:23.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 19:18:40.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Husk
+[08Oct2024 19:18:43.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 19:19:22.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was slain by Skeleton
+[08Oct2024 19:19:26.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 19:23:15.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Husk
