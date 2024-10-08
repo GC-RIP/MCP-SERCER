@@ -381,3 +381,21 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
 [08Oct2024 23:11:39.504] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1104, y=72, z=-1478} BlockPos{x=-1104, y=70, z=-1478}
 [08Oct2024 23:11:39.546] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1104, y=72, z=-1478} BlockPos{x=-1104, y=70, z=-1478}
+[08Oct2024 23:22:26.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [The Lighthouse]
+[08Oct2024 23:22:35.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 23:22:36.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [The Lighthouse]
+[08Oct2024 23:23:08.677] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7997ms or 159 ticks behind
+[08Oct2024 23:23:08.706] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkBy2007 moved too quickly! 0.03959506391515788,8.5,-5.2735592679759975
+[08Oct2024 23:23:36.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> llevate esto
+[08Oct2024 23:23:46.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <DarkBy2007> tu
+[08Oct2024 23:23:49.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> xd
+[08Oct2024 23:23:53.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> ahorita
+[08Oct2024 23:24:04.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> edja termino de comer verga
+[08Oct2024 23:26:34.490] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-99, y=-32, z=-208}
+[08Oct2024 23:26:34.520] [Worker-Main-1/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-106, y=-32, z=-216}
+[08Oct2024 23:28:37.947] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'porting_lib:step_height_addition'
+[08Oct2024 23:28:37.948] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[08Oct2024 23:28:37.948] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'porting_lib:step_height_addition'
+[08Oct2024 23:28:37.949] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'porting_lib:entity_gravity'
+[08Oct2024 23:30:07.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 23:31:01.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <GC_RIP> toy mas lag que tu xd
