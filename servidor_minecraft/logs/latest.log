@@ -183,3 +183,27 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 21:09:02.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed GC_RIP]
 [08Oct2024 21:09:27.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
 [08Oct2024 21:12:27.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Ice Bucket Challenge]
+[08Oct2024 21:16:24.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP tried to swim in lava
+[08Oct2024 21:19:01.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was killed whilst fighting Zombie
+[08Oct2024 21:19:01.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed GC_RIP]
+[08Oct2024 21:19:44.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [We Need to Go Deeper]
+[08Oct2024 21:19:46.387] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkBy2007 moved too quickly! 8.079717671955038,2.750812921255317,-5.3616829048824
+[08Oct2024 21:19:46.405] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3311ms or 66 ticks behind
+[08Oct2024 21:20:14.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [We Need to Go Deeper]
+[08Oct2024 21:20:14.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 21:21:00.163] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-172, y=82, z=-162} BlockPos{x=-173, y=83, z=-163}
+[08Oct2024 21:21:03.665] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-173, y=82, z=-169} BlockPos{x=-173, y=81, z=-168}
+[08Oct2024 21:21:49.266] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-176, y=80, z=-252} BlockPos{x=-176, y=78, z=-252}
+[08Oct2024 21:22:42.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 21:23:08.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 21:23:44.003] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-158, y=63, z=-323} BlockPos{x=-159, y=62, z=-323}
+[08Oct2024 21:23:44.043] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-156, y=64, z=-323} BlockPos{x=-159, y=62, z=-323}
+[08Oct2024 21:23:56.133] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-180, y=60, z=-323} BlockPos{x=-182, y=59, z=-323}
+[08Oct2024 21:23:56.193] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-180, y=60, z=-323} BlockPos{x=-182, y=59, z=-323}
+[08Oct2024 21:23:56.234] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-180, y=60, z=-323} BlockPos{x=-182, y=59, z=-323}
+[08Oct2024 21:23:56.294] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-180, y=60, z=-323} BlockPos{x=-182, y=59, z=-323}
+[08Oct2024 21:23:56.336] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-180, y=60, z=-323} BlockPos{x=-182, y=59, z=-323}
+[08Oct2024 21:23:56.401] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-180, y=60, z=-323} BlockPos{x=-182, y=59, z=-323}
+[08Oct2024 21:24:38.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Nightmare Fuel]
+[08Oct2024 21:24:44.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 21:24:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
