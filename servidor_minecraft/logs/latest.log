@@ -252,3 +252,7 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 20:09:43.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Ice Bucket Challenge]
 [08Oct2024 20:12:39.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was killed
 [08Oct2024 20:12:39.583] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed GC_RIP]
+[08Oct2024 20:18:47.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Gave 256 [Iron Ingot] to 2]
+[08Oct2024 20:18:51.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Gave 800 [Iron Ingot] to 2]
+[08Oct2024 20:19:45.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Gave 256 [Coal] to 2]
+[08Oct2024 20:21:59.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Gave 256 [Diamond] to 2]
