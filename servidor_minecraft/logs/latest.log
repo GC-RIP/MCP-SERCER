@@ -225,3 +225,15 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 [08Oct2024 21:34:27.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Those Were the Days]
 [08Oct2024 21:34:32.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Those Were the Days]
 [08Oct2024 21:35:00.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP burned to death
+[08Oct2024 21:35:35.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 21:35:39.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 burned to death
+[08Oct2024 21:35:46.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 21:36:12.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Gave 400 [Gold Ingot] to 2]
+[08Oct2024 21:37:01.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Who is Cutting Onions?]
+[08Oct2024 21:38:50.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Nightmare Fuel]
+[08Oct2024 21:38:58.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 21:39:25.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Who is Cutting Onions?]
+[08Oct2024 21:44:06.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was shot by DarkBy2007
+[08Oct2024 21:44:13.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported GC_RIP to DarkBy2007]
+[08Oct2024 21:44:34.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported DarkBy2007 to GC_RIP]
+[08Oct2024 21:45:26.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
