@@ -9,3 +9,30 @@
 [09Oct2024 00:02:19.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to GC_RIP: putos todos
 [09Oct2024 00:02:19.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to DarkBy2007: putos todos
 [09Oct2024 00:02:31.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported Floppixt to DarkBy2007]
+[09Oct2024 00:02:34.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported Floppixt to GC_RIP]
+[09Oct2024 00:03:04.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Floppixt was shot by DarkBy2007
+[09Oct2024 00:03:11.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported Floppixt to DarkBy2007]
+[09Oct2024 00:03:29.591] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GC_RIP lost connection: Disconnected
+[09Oct2024 00:03:29.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP left the game
+[09Oct2024 00:03:29.600] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Floppixt moved wrongly!
+[09Oct2024 00:03:40.550] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GC_RIP[/127.169.97.218:60327] logged in with entity id 62011 at (-1016.7905306835098, 68.0, -1563.4283623505617)
+[09Oct2024 00:03:40.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP joined the game
+[09Oct2024 00:03:40.597] [Server thread/INFO] [Jade/]: Syncing config to GC_RIP (dadea061-0ad3-34ca-b169-b53822ecd992)
+[09Oct2024 00:04:15.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[09Oct2024 00:04:25.297] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-1039, y=87, z=-1466} BlockPos{x=-1039, y=86, z=-1465}
+[09Oct2024 00:04:47.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Floppixt has made the advancement [Alex's Mobs]
+[09Oct2024 00:06:11.065] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GC_RIP moved too quickly! -1.8660299075957028,0.8763359791121417,9.80333351691732
+[09Oct2024 00:07:32.974] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-210, y=66, z=-118} BlockPos{x=-210, y=66, z=-119}
+[09Oct2024 00:07:33.279] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-210, y=66, z=-116} BlockPos{x=-210, y=66, z=-119}
+[09Oct2024 00:09:25.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has completed the challenge [Hot Tourist Destinations]
+[09Oct2024 00:09:36.094] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-192, y=33, z=-6} BlockPos{x=-192, y=32, z=-6}
+[09Oct2024 00:09:36.155] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-192, y=33, z=-6} BlockPos{x=-192, y=32, z=-6}
+[09Oct2024 00:09:36.200] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-192, y=33, z=-6} BlockPos{x=-192, y=32, z=-6}
+[09Oct2024 00:09:36.260] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-192, y=33, z=-6} BlockPos{x=-192, y=32, z=-6}
+[09Oct2024 00:10:58.551] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-150, y=18, z=79} BlockPos{x=-149, y=17, z=78}
+[09Oct2024 00:11:11.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[09Oct2024 00:12:06.038] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GC_RIP lost connection: Disconnected
+[09Oct2024 00:12:06.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP left the game
+[09Oct2024 00:12:27.750] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GC_RIP[/127.169.97.218:42499] logged in with entity id 66228 at (-1042.4640893952512, 92.0, -1505.300000011921)
+[09Oct2024 00:12:27.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP joined the game
+[09Oct2024 00:12:27.799] [Server thread/INFO] [Jade/]: Syncing config to GC_RIP (dadea061-0ad3-34ca-b169-b53822ecd992)
