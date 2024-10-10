@@ -1,29 +1,398 @@
-[10Oct2024 02:02:12.987] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[10Oct2024 02:02:12.992] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[10Oct2024 02:02:13.824] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[10Oct2024 02:02:13.874] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MCP-SERCER/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[10Oct2024 02:02:14.177] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[10Oct2024 02:02:14.178] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[10Oct2024 02:02:14.180] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[10Oct2024 02:02:14.181] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[10Oct2024 02:02:14.366] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[10Oct2024 02:02:14.367] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[10Oct2024 02:02:14.429] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
-	Mod ID: 'forge', Requested by: 'glitchcore', Expected range: '[47.3.0,)', Actual version: '47.2.0'
-	Mod ID: 'architectury', Requested by: 'artifacts', Expected range: '[9.0.8,)', Actual version: '[MISSING]'
-	Mod ID: 'forge', Requested by: 'biomesoplenty', Expected range: '[47.3.0,)', Actual version: '47.2.0'
-	Mod ID: 'octolib', Requested by: 'relics', Expected range: '[0.4.2,)', Actual version: '[MISSING]'
-[10Oct2024 02:02:15.841] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[10Oct2024 02:02:15.916] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[10Oct2024 02:02:15.956] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[10Oct2024 02:02:15.959] [main/WARN] [mixin/]: Reference map 'expanded_ecosphere-forge-refmap.json' for wwoo.mixins.json could not be read. If this is a development environment you can ignore this message
-[10Oct2024 02:02:15.963] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
-[10Oct2024 02:02:15.997] [main/INFO] [Puzzles Lib/]: Loading 2 mods:
+[10Oct2024 03:10:19.027] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[10Oct2024 03:10:19.031] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[10Oct2024 03:10:19.510] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[10Oct2024 03:10:19.566] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MCP-SERCER/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[10Oct2024 03:10:20.021] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[10Oct2024 03:10:20.022] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[10Oct2024 03:10:20.023] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[10Oct2024 03:10:20.024] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MCP-SERCER/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[10Oct2024 03:10:20.185] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[10Oct2024 03:10:20.186] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 10 dependencies adding them to mods collection
+[10Oct2024 03:10:22.141] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Oct2024 03:10:22.200] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[10Oct2024 03:10:22.239] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Oct2024 03:10:22.242] [main/WARN] [mixin/]: Reference map 'expanded_ecosphere-forge-refmap.json' for wwoo.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Oct2024 03:10:22.247] [main/WARN] [mixin/]: Reference map 'mixins.call_of_yucutan.refmap.json' for mixins.call_of_yucutan.json could not be read. If this is a development environment you can ignore this message
+[10Oct2024 03:10:22.289] [main/INFO] [Puzzles Lib/]: Loading 39 mods:
+	- alexsmobs 1.22.9
+	- architectury 9.2.14
+	- artifacts 9.5.13
+		|-- expandability 9.0.4
+		\-- mixinextras 0.3.5
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- call_of_yucutan 1.0.12
+	- carryon 2.1.2.7
+	- citadel 2.6.0
+	- cloth_config 11.1.136
+	- cristellib 1.1.5
+	- curios 5.10.0+1.20.1
+	- dungeons_arise 2.1.58-1.20.x
+	- enchantinginfuser 8.0.3
+	- expanded_ecosphere 3.2.4
+	- explorify 1.6.2
+	- fallingtree 4.3.4
 	- forge 47.2.0
+	- framework 0.6.13
+	- goblintraders 1.9.3
+	- immersive_armors 1.6.1+1.20.1
+	- inventoryprofilesnext 1.10.10
+	- ironchest 1.20.1-14.4.4
+	- jade 11.11.1+forge
+	- jei 15.12.2.51
+	- kotlinforforge 4.3.0
+	- libipn 4.0.2
 	- minecraft 1.20.1
-[10Oct2024 02:02:16.080] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[10Oct2024 02:02:16.757] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[10Oct2024 02:02:16.758] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[10Oct2024 02:02:16.758] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
-[10Oct2024 02:02:16.928] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[10Oct2024 02:02:17.829] [main/WARN] [mixin/]: Error loading class: dev/architectury/networking/NetworkChannel (java.lang.ClassNotFoundException: dev.architectury.networking.NetworkChannel)
+	- octolib 0.4.2
+	- puzzleslib 8.1.24
+		\-- puzzlesaccessapi 8.0.7
+	- relics 0.8.0.7
+	- terrablender 3.0.1.7
+	- trashslot 15.1.0
+	- travelersbackpack 9.1.16
+	- waystones 14.1.5
+	- xaerominimap 24.5.0
+	- xaeroworldmap 1.39.0
+[10Oct2024 03:10:22.401] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[10Oct2024 03:10:23.220] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[10Oct2024 03:10:23.222] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[10Oct2024 03:10:23.222] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[10Oct2024 03:10:23.529] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[10Oct2024 03:10:30.665] [modloading-worker-0/INFO] [Expanded Ecosphere/]: Loading Expanded Ecosphere
+[10Oct2024 03:10:31.177] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[10Oct2024 03:10:31.274] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[10Oct2024 03:10:31.411] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[10Oct2024 03:10:31.412] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[10Oct2024 03:10:31.420] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[10Oct2024 03:10:31.421] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[10Oct2024 03:10:31.422] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[10Oct2024 03:10:31.433] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[10Oct2024 03:10:31.434] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[10Oct2024 03:10:31.435] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[10Oct2024 03:10:31.649] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[10Oct2024 03:10:31.696] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[10Oct2024 03:10:31.884] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[10Oct2024 03:10:31.888] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[10Oct2024 03:10:31.888] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[10Oct2024 03:10:31.912] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for enchantinginfuser:main
+[10Oct2024 03:10:32.390] [modloading-worker-0/INFO] [Expanded Ecosphere/]: [Expanded Ecosphere Updater] Found no updates
+[10Oct2024 03:10:33.627] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/MCP-SERCER/servidor_minecraft/config/travelersbackpack-common.toml is not correct. Correcting
+[10Oct2024 03:10:34.176] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[10Oct2024 03:10:34.519] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.2.0.jar%23170!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.2.0.jar%23170!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23170!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:378) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:316) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1318) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1273) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:318) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:267) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1296) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1273) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:313) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:267) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1296) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1273) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Oct 09 20:17:02 UTC 2024
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:182) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:534) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:313) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:267) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1296) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1273) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10Oct2024 03:10:34.523] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[10Oct2024 03:10:34.618] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[10Oct2024 03:10:34.619] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[10Oct2024 03:10:34.620] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[10Oct2024 03:10:34.620] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[10Oct2024 03:10:34.621] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
+[10Oct2024 03:10:34.621] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[10Oct2024 03:10:34.664] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.24 Target: null
+[10Oct2024 03:10:34.665] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[10Oct2024 03:10:34.666] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[10Oct2024 03:10:34.667] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[10Oct2024 03:10:34.669] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[10Oct2024 03:10:34.669] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[10Oct2024 03:10:34.716] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[10Oct2024 03:10:34.738] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[10Oct2024 03:10:34.743] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[10Oct2024 03:10:34.746] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[10Oct2024 03:10:34.829] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:956) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133) ~[java.net.http:?]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:139) ~[fmlcore-1.20.1-47.2.0.jar%23170!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:177) ~[fmlcore-1.20.1-47.2.0.jar%23170!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23170!/:?]
+Caused by: javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Alert.java:130) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:378) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at sun.security.ssl.TransportContext.fatal(TransportContext.java:316) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1318) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1273) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:318) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:267) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1296) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1273) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:313) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:267) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1296) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1273) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Oct 09 20:17:02 UTC 2024
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:182) ~[?:?]
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:534) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190) ~[?:?]
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:224) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:144) ~[?:?]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:83) ~[?:?]
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:309) ~[?:?]
+	at sun.security.validator.PKIXValidator.doValidate(PKIXValidator.java:313) ~[?:?]
+	at sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:267) ~[?:?]
+	at sun.security.validator.Validator.validate(Validator.java:256) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:284) ~[?:?]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:144) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1296) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1195) ~[?:?]
+	at sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1138) ~[?:?]
+	at sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:393) ~[?:?]
+	at sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:476) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1273) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(SSLEngineImpl.java:1260) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(SSLEngineImpl.java:1205) ~[?:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.lambda$executeTasks$3(SSLFlowDelegate.java:1148) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:177) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.executeTasks(SSLFlowDelegate.java:1143) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate.doHandshake(SSLFlowDelegate.java:1109) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader.processData(SSLFlowDelegate.java:508) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SSLFlowDelegate$Reader$ReaderDownstreamPusher.run(SSLFlowDelegate.java:283) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$LockingRestartableTask.run(SequentialScheduler.java:182) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:149) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$TryEndDeferredCompleter.complete(SequentialScheduler.java:324) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$CompleteRestartableTask.run(SequentialScheduler.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207) ~[java.net.http:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[10Oct2024 03:10:34.832] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[10Oct2024 03:10:34.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[10Oct2024 03:10:34.854] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Oct2024 03:10:35.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[10Oct2024 03:10:35.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/enchantinginfuser.json
+[10Oct2024 03:10:35.027] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchantinginfuser] Found status: UP_TO_DATE Current: 8.0.3 Target: null
+[10Oct2024 03:10:36.300] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Oct2024 03:10:36.365] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /workspaces/MCP-SERCER/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.m_13648_(DirectoryLock.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.util.DirectoryLock.m_13640_(DirectoryLock.java:41) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:404) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_289864_(LevelStorageSource.java:342) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.Main.main(Main.java:141) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
