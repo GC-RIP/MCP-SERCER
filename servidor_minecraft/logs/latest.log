@@ -386,3 +386,39 @@ Caused by: java.security.cert.CertificateExpiredException: NotAfter: Wed Oct 09 
 [10Oct2024 05:02:48.911] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: GC_RIP[/127.125.192.74:33709] logged in with entity id 750 at (92.5, 71.0, -773.5)
 [10Oct2024 05:02:49.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP joined the game
 [10Oct2024 05:02:49.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Ice and Fire]
+[10Oct2024 05:08:11.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Gamerule keepInventory is now set to: true]
+[10Oct2024 05:08:50.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Siren
+[10Oct2024 05:08:50.761] [Server thread/INFO] [tombstone/]: The player GC_RIP has successfully been saved
+[10Oct2024 05:08:53.555] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[10Oct2024 05:08:53.557] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[10Oct2024 05:09:05.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has reached the goal [Here They Come]
+[10Oct2024 05:10:52.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Zombie Lumberjack
+[10Oct2024 05:10:52.842] [Server thread/INFO] [tombstone/]: The player GC_RIP has successfully been saved
+[10Oct2024 05:10:54.430] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[10Oct2024 05:10:54.431] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[10Oct2024 05:11:07.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Gamerule keepInventory is now set to: false]
+[10Oct2024 05:12:27.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was shot by Skeleton
+[10Oct2024 05:12:27.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Your First Grave]
+[10Oct2024 05:12:27.848] [Server thread/INFO] [tombstone/]: The player GC_RIP has successfully been saved
+[10Oct2024 05:12:29.912] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[10Oct2024 05:12:29.913] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
+[10Oct2024 05:14:10.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was blown up by Creeper
+[10Oct2024 05:14:10.362] [Server thread/INFO] [tombstone/]: The player GC_RIP has successfully been saved
+[10Oct2024 05:14:12.591] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[10Oct2024 05:14:12.592] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
+[10Oct2024 05:14:16.080] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: GC_RIP lost connection: Disconnected
+[10Oct2024 05:14:16.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP left the game
+[10Oct2024 05:14:39.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[10Oct2024 05:14:39.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Oct2024 05:14:39.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Oct2024 05:14:39.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Oct2024 05:14:40.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10Oct2024 05:14:48.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10Oct2024 05:14:48.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10Oct2024 05:14:48.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10Oct2024 05:14:48.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Oct2024 05:14:48.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Oct2024 05:14:48.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10Oct2024 05:14:48.399] [Server thread/INFO] [Framework/]: Unloading server configs...
+[10Oct2024 05:14:48.404] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[10Oct2024 05:14:48.408] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
