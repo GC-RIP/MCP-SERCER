@@ -178,3 +178,14 @@
 [12Oct2024 17:54:26.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP joined the game
 [12Oct2024 17:54:26.040] [Server thread/INFO] [Jade/]: Syncing config to GC_RIP (dadea061-0ad3-34ca-b169-b53822ecd992)
 [12Oct2024 17:55:37.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Chompy]
+[12Oct2024 17:59:33.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Wither Skeleton
+[12Oct2024 18:02:19.979] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bultex[/127.22.40.16:33289] logged in with entity id 4339 at (-136.5, 64.0, -6.5)
+[12Oct2024 18:02:19.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex joined the game
+[12Oct2024 18:02:20.025] [Server thread/INFO] [Jade/]: Syncing config to Bultex (aec6f8c2-eab1-3fac-bbbd-d8e63ca590a3)
+[12Oct2024 18:03:33.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported Bultex to GC_RIP]
+[12Oct2024 18:04:05.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[12Oct2024 18:04:50.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was blown up by Creeper
+[12Oct2024 18:05:25.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was shot by Skeleton
+[12Oct2024 18:05:33.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[12Oct2024 18:05:54.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Wither Skeleton
+[12Oct2024 18:06:01.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
