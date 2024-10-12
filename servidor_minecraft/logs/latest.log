@@ -245,3 +245,22 @@
 [12Oct2024 18:41:59.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Wither Skeleton
 [12Oct2024 18:42:25.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Set the time to 1000]
 [12Oct2024 18:44:07.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported DarkBy2007 to GC_RIP]
+[12Oct2024 18:47:39.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
+[12Oct2024 18:47:46.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[12Oct2024 18:48:11.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex has made the advancement [Getting an Upgrade]
+[12Oct2024 18:51:26.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Kicked DarkBy2007: Kicked by an operator]
+[12Oct2024 18:51:26.307] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkBy2007 lost connection: Kicked by an operator
+[12Oct2024 18:51:26.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 left the game
+[12Oct2024 18:51:50.471] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkBy2007[/127.92.187.105:33699] logged in with entity id 18595 at (-278.3896557653758, 57.0, -384.69999998807907)
+[12Oct2024 18:51:50.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 joined the game
+[12Oct2024 18:51:50.518] [Server thread/INFO] [Jade/]: Syncing config to DarkBy2007 (03317f9e-8efa-3c00-8466-f328e416de9e)
+[12Oct2024 18:52:33.112] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bultex lost connection: Disconnected
+[12Oct2024 18:52:33.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex left the game
+[12Oct2024 18:53:30.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
+[12Oct2024 18:53:43.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed DarkBy2007]
+[12Oct2024 18:54:20.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
+[12Oct2024 18:54:30.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[12Oct2024 18:56:05.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
+[12Oct2024 18:56:15.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 was killed
+[12Oct2024 18:56:15.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was killed
+[12Oct2024 18:56:15.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Killed 2 entities]
