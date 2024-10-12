@@ -1,9 +1,1 @@
-[
-  {
-    "ip": "192.16.0.1",
-    "created": "2024-10-09 00:23:27 +0000",
-    "source": "GC_RIP",
-    "expires": "forever",
-    "reason": "Banned by an operator."
-  }
-]
+[]
