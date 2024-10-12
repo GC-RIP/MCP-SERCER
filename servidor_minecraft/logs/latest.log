@@ -213,3 +213,23 @@
 [12Oct2024 18:14:02.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [What a Deal!]
 [12Oct2024 18:16:14.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Gave 1 [Carrot] to GC_RIP]
 [12Oct2024 18:16:45.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Suit Up]
+[12Oct2024 18:17:45.509] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bultex lost connection: Timed out
+[12Oct2024 18:17:45.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex left the game
+[12Oct2024 18:18:24.459] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@450f0240[id=<null>,name=Bultex,properties={},legacy=false] (/127.22.40.16:36587) lost connection: Disconnected
+[12Oct2024 18:18:47.820] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bultex[/127.22.40.16:59081] logged in with entity id 9224 at (-277.3816555019013, 62.0, -385.08848595275003)
+[12Oct2024 18:18:47.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex joined the game
+[12Oct2024 18:18:47.857] [Server thread/INFO] [Jade/]: Syncing config to Bultex (aec6f8c2-eab1-3fac-bbbd-d8e63ca590a3)
+[12Oct2024 18:19:17.959] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bultex lost connection: Timed out
+[12Oct2024 18:19:17.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex left the game
+[12Oct2024 18:19:20.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Summoned new Unemployed]
+[12Oct2024 18:21:45.359] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@17e16d15[id=<null>,name=Bultex,properties={},legacy=false] (/127.22.40.16:51241) lost connection: Disconnected
+[12Oct2024 18:22:45.257] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3fa9a4f4[id=<null>,name=Bultex,properties={},legacy=false] (/127.22.40.16:50971) lost connection: Disconnected
+[12Oct2024 18:23:10.064] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bultex[/127.22.40.16:33371] logged in with entity id 10300 at (-277.3816555019013, 62.0, -385.08848595275003)
+[12Oct2024 18:23:10.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex joined the game
+[12Oct2024 18:23:10.093] [Server thread/INFO] [Jade/]: Syncing config to Bultex (aec6f8c2-eab1-3fac-bbbd-d8e63ca590a3)
+[12Oct2024 18:24:07.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex was slain by Wither Skeleton
+[12Oct2024 18:24:43.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Set the time to 1000]
+[12Oct2024 18:24:57.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex was shot by Skeleton
+[12Oct2024 18:25:06.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported Bultex to GC_RIP]
+[12Oct2024 18:25:44.314] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/3094, l='ServerLevel[world]', x=-289.48, y=64.00, z=-310.52] died, message: 'Nitwit was slain by GC_RIP'
+[12Oct2024 18:26:37.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Gave 1 [Carrot] to GC_RIP]
