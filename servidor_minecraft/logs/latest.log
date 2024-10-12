@@ -233,3 +233,6 @@
 [12Oct2024 18:25:06.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported Bultex to GC_RIP]
 [12Oct2024 18:25:44.314] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/3094, l='ServerLevel[world]', x=-289.48, y=64.00, z=-310.52] died, message: 'Nitwit was slain by GC_RIP'
 [12Oct2024 18:26:37.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Gave 1 [Carrot] to GC_RIP]
+[12Oct2024 18:32:35.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex has made the advancement [Stone Age]
+[12Oct2024 18:36:28.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by DarkBy2007
+[12Oct2024 18:36:34.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
