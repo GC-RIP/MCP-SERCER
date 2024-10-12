@@ -189,3 +189,27 @@
 [12Oct2024 18:05:33.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
 [12Oct2024 18:05:54.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was slain by Wither Skeleton
 [12Oct2024 18:06:01.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[12Oct2024 18:07:03.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex was slain by Zombie
+[12Oct2024 18:07:04.010] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/3095, l='ServerLevel[world]', x=-309.43, y=64.00, z=-303.30] died, message: 'Fletcher was slain by Zombie'
+[12Oct2024 18:07:09.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported Bultex to GC_RIP]
+[12Oct2024 18:07:30.207] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/3102, l='ServerLevel[world]', x=-262.06, y=64.00, z=-356.74] died, message: 'Librarian was slain by Zombie'
+[12Oct2024 18:07:35.463] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bultex lost connection: Disconnected
+[12Oct2024 18:07:35.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex left the game
+[12Oct2024 18:07:35.510] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[12Oct2024 18:08:11.112] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@db4c342[id=<null>,name=Bultex,properties={},legacy=false] (/127.22.40.16:45745) lost connection: Disconnected
+[12Oct2024 18:08:49.909] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4d2d77e5[id=<null>,name=Bultex,properties={},legacy=false] (/127.22.40.16:56995) lost connection: Disconnected
+[12Oct2024 18:09:14.721] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bultex[/127.22.40.16:35185] logged in with entity id 6927 at (-133.5, 64.0, -4.5)
+[12Oct2024 18:09:14.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex joined the game
+[12Oct2024 18:09:14.753] [Server thread/INFO] [Jade/]: Syncing config to Bultex (aec6f8c2-eab1-3fac-bbbd-d8e63ca590a3)
+[12Oct2024 18:09:33.373] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-143, y=63, z=-5}
+[12Oct2024 18:09:33.415] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=0, y=0, z=0} BlockPos{x=-143, y=64, z=-5}
+[12Oct2024 18:09:36.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [DarkBy2007: Teleported Bultex to GC_RIP]
+[12Oct2024 18:10:33.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [Spooky Scary Skeleton]
+[12Oct2024 18:10:47.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Spooky Scary Skeleton]
+[12Oct2024 18:10:59.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP was killed trying to hurt DarkBy2007
+[12Oct2024 18:11:07.411] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bultex has made the advancement [Monster Hunter]
+[12Oct2024 18:11:07.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Teleported GC_RIP to DarkBy2007]
+[12Oct2024 18:12:18.306] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/3101, l='ServerLevel[world]', x=-304.77, y=64.00, z=-329.30] died, message: 'Unemployed was slain by Zombie'
+[12Oct2024 18:14:02.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: GC_RIP has made the advancement [What a Deal!]
+[12Oct2024 18:16:14.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [GC_RIP: Gave 1 [Carrot] to GC_RIP]
+[12Oct2024 18:16:45.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkBy2007 has made the advancement [Suit Up]
